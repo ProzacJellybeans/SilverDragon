@@ -13,19 +13,7 @@
 					$SearchForm
 				</div>
 			<% end_if %>
-			<nav class="primary">
-			<div class="nav">
-				<span class="nav-open-button">²</span>
-					<ul>
-						<% loop $Menu(1) %>
-							<li class="$LinkingMode"><a href="$Link" title="$Title.XML">$MenuTitle.XML</a></li>
-						<% end_loop %>
-					</ul>
-		    </div>
-		    <hr>
-			</nav>
-			
-			
+			<% include Navigation %>
 		</div>
 	</div>
 </header>
