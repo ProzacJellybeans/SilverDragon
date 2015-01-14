@@ -17,10 +17,12 @@
 <body>
     <div id="container">
     <% include HeaderandNav %>
+   <hr>
     <section>
     
        $Layout 
     </section>
+   <hr>
     <% include Footer %>
     
     </div>
