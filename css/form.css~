@@ -8,6 +8,8 @@
 
 /* GENERIC FORMS
 ----------------------------------------------- */
+<<<<<<< HEAD
+=======
 #BrowserPoll {
     float: right;
     margin: 20px 10px 0 0;
@@ -44,6 +46,7 @@
     #BrowserPoll .bar {
         background-color: #015581;
     }
+>>>>>>> c73f5b1b7e3d02d0f421d1797ad7f237cfebf492
 
 form {
     max-width: 500px;

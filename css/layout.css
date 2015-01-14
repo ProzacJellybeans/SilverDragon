@@ -1,3 +1,4 @@
+
 /*change filename to layout.css once you have cloned to your computer -J/*
 
 
@@ -105,6 +106,7 @@ The following fractions are supported: 1, 1/2, 1/3, 2/3, 1/4, 3/4, 1/5, 2/5, 3/5
 
 /* MAIN LAYOUT */
 body {
+    
     margin: 0;
     background: #FAFAFA;
     min-width: 240px; 
@@ -119,6 +121,7 @@ body {
 	    border-top: 3px;
 	    border-color: #545454;
 	    min-height: 300px;
+	    
 	}
 	.inner {
 	    max-width: 1100px;
@@ -144,7 +147,7 @@ body {
 header {
     position: fixed;
     width: 100%;
-    height: 200px;
+    height: 100px;
     
 }
 .header {
@@ -748,11 +751,13 @@ body h1 span.amp {
 	/* Main Content */
 	.main {
 	    padding: 20px 0 45px; /* decrease padding so that more content can fit on screen */
+	    
 	}
 	.content-container,
 	.sidebar {
 	    width: 100%; /* sidenav is now shown above the page content */
 	    margin-bottom: 30px;
+	    
 
 	    
 	    
@@ -861,3 +866,5 @@ body h1 span.amp {
 	    display: none;
 	}
 }
+
+

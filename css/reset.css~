@@ -56,9 +56,11 @@ ins {background-color:#ff9; color:#000; text-decoration:none;}
 mark {background-color:#ff9; color:#000; font-style:italic; font-weight:bold;}
 del {text-decoration: line-through; }
 abbr[title], dfn[title] {border-bottom:1px dotted; cursor:help;}
-
+<<<<<<< HEAD
+hr {display:block; height:1px; border:0; border-top:1px solid #ccc; margin:1em 0; padding:0;}
+=======
 hr {display:block; height:1px; border:0; border-top:1px solid #545454; opacity: 0.5; margin:1em 0; padding:0;}
-
+>>>>>>> c73f5b1b7e3d02d0f421d1797ad7f237cfebf492
 input, select {vertical-align:middle;}
 
 a:hover, a:active {outline: none;}
