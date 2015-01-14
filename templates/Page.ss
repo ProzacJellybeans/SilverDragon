@@ -12,6 +12,18 @@
 	
 </head>
 <body>
-
+    <div id="container">
+    <header>
+        <h1>This is where the actual header text will go</h1>
+    </header>
+    <nav>
+            
+    </nav>
+    <section>
+       $Layout 
+    </section>
+    <% include Footer %>
+    
+    </div>
 </body>
 </html>
