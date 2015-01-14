@@ -9,12 +9,16 @@
 	<% base_tag %>
 	<title><% if $MetaTitle %>$MetaTitle<% else %>$Title<% end_if %> &raquo; $SiteConfig.Title</title>
 	$MetaTags(false)
-	
+	<% require themedCSS('reset') %>
+	<% require themedCSS('typography') %>
+	<% require themedCSS('form') %>
+	<% require themedCSS('layout') %>
 </head>
 <body>
     <div id="container">
     <% include HeaderandNav %>
     <section>
+    
        $Layout 
     </section>
     <% include Footer %>
