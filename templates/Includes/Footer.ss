@@ -1,5 +1,3 @@
-
-<link rel="stylesheet" type="text/css" href="../../css/footerStyles.css">
 <footer class="footer" role="contentinfo">
         <div class="inner">
                 <div class="unit size4of4 lastUnit">
