@@ -13,12 +13,7 @@
 </head>
 <body>
     <div id="container">
-    <header>
-        <h1>This is where the actual header text will go</h1>
-    </header>
-    <nav>
-            
-    </nav>
+    <% include HeaderandNav %>
     <section>
        $Layout 
     </section>
