@@ -157,8 +157,8 @@ header br {
 	position: relative;
 	
 }
-.nav {
-    margin: 0;
+.header nav li{
+    margin-bottom: -6px;
 }
 #test {
     background-color: #ffffff;
