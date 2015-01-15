@@ -351,7 +351,7 @@ footer:after { /* clearfix */
     transition: color 0.2s;
 }
 .footer a.brand { color: #333; margin-left: 0; }
-.footer a.brand:hover { color: #B80000; }
+.footer a.brand:hover { color: #3a425E; }
 body h1 span.amp {
     font-family: 'Source Sans Pro', sans-serif;
     font-style: italic;
@@ -365,6 +365,9 @@ body h1 span.amp {
     padding-top: 450px;
     font-size: 11px;
     line-height: 22px;
+    min-width: 300px;
+    padding-left: 500px;
+    padding-right: 450px;
 }
 	.footer a {
 	    color: #999;
