@@ -360,8 +360,10 @@ body h1 span.amp {
     font-size: 11px;
     line-height: 22px;
     min-width: 300px;
-    padding-left: 420px;
-    padding-right: 450px;
+    padding-left: 500px;
+    padding-right: 450px; 
+
+
 }
 	.footer a {
 	    color: #999;
