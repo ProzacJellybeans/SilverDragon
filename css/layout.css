@@ -450,7 +450,7 @@ footer:after { /* clearfix */
     transition: color 0.2s;
 }
 .footer a.brand { color: #333; margin-left: 0; }
-.footer a.brand:hover { color: #B80000; }
+.footer a.brand:hover { color: #3A425E; }
 body h1 span.amp {
     font-family: Baskerville,"Goudy Old Style","Palatino","Book Antiqua",Georgia;
     font-style: italic;
@@ -464,6 +464,8 @@ body h1 span.amp {
     padding-top: 450px;
     font-size: 11px;
     line-height: 22px;
+    margin-left: 17%;
+    margin-right: 17%
 }
 	.footer a {
 	    color: #999;
@@ -476,6 +478,9 @@ body h1 span.amp {
 	    color: #000;
 	    display: block;
 	    margin-bottom: 10px;
+            padding-left: 300px;
+	    padding-right: 450px;
+	    min-width: 300px;
 	}
 	.footer .right {
 	    float: right;
@@ -517,66 +522,6 @@ body h1 span.amp {
 	.footer .primary .nav-open-button {
 	    display: none; /* the footer includes the primary nav include - this makes sure the nav open close button doesn't show up */
 	}
-
-/* PAGE SPECIFIC LAYOUT */
-
-	/* Homepage */
-		/* currently no Hompage specific styles - feel free to add your own */
-
-	/* Search Results */
-	.typography .searchResults h1 {
-		margin-bottom: 0;
-		padding-bottom: 0;
-		border-bottom: none;
-	}
-	.searchResults p.searchQuery {
-	    margin-bottom: 10px;
-	    font-size: 15px;
-	    font-weight: bold;
-	}
-	.searchResults ul#SearchResults {
-	    padding: 0;
-	    border-bottom: 1px solid #e5e5e5;
-	    margin:0;
-	}
-		.searchResults ul#SearchResults li {
-		    border-top: 1px solid #e5e5e5;
-		    padding: 20px 0;
-		    list-style-type: none;
-		}
-		.searchResults ul#SearchResults p {
-		    margin-bottom: 10px;
-		}
-		.searchResults #PageNumbers a {
-		    padding: 0 5px;
-		}
-		.searchResults #PageNumbers .pagination {
-		   	border-bottom: 1px solid #e5e5e5;
-		    padding: 20px 0;
-		    display:table; /* displays the pagination as a table so that elements stay inline and the middle column adjusts its size to accomodate and the right arrow stays to the right */
-		    width:100%;
-		}
-		.searchResults #PageNumbers .pagination span{
-			display:table-cell; /* each element in the pagination div displays as a table cell */
-		}
-		.searchResults #PageNumbers p {
-		    text-align: center;
-		    padding:20px 0;
-		}
-		.searchResults #PageNumbers .next,
-		.searchResults #PageNumbers .prev {
-		    font-size: 14px;
-		    padding: 0 20px;
-		    display:table-cell; /* each element in the pagination div displays as a table cell */
-		    vertical-align: middle;
-		    border-bottom:0 !important;
-		}
-		.searchResults #PageNumbers .next {
-		    margin-left: 15px;
-		}
-		.searchResults #PageNumbers .prev {
-		    margin-right: 15px;
-		}
 
 /* DEVICE & RESPONSIVE LAYOUT */
 .header .nav-open-button {
