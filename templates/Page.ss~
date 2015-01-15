@@ -16,14 +16,14 @@
 </head>
 <body>
     <div id="container">
-        <div id="content-holder">
+       <div id="content-holder">  
             <% include HeaderandNav %>
-   
+        <div id="test">
             <section>
     
                $Layout 
             </section>
-   
+        </div>
            <% include Footer %>
        </div> 
     </div>
