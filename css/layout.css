@@ -284,8 +284,7 @@ header br {
 	    
 	}
 	.header .primary li.section:after,
-	.header .primary li.current:after {
-	    content:	    
+	.header .primary li.current:after {	    
 	    display: block;
 	    position: absolute;
 	    left: 50%;
