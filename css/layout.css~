@@ -158,7 +158,7 @@ header br {
 	
 }
 .header nav li{
-    margin-bottom: -6px;
+    margin-bottom: -10px;
 }
 #test {
     background-color: #ffffff;
@@ -254,7 +254,7 @@ header br {
 		
 	}
 	.header .primary li {
-	    width: 100px;
+	    min-width: 100px;
 	    margin-top: 5px;
 	    margin-right: 5px;
 	    position: relative;
@@ -280,12 +280,9 @@ header br {
 	.header .primary li.current a {
 	    color: #545454;
 	    background-color: #FAFAFA;
-	    
-	    
 	}
 	.header .primary li.section:after,
-	.header .primary li.current:after {
-	    content:	    
+	.header .primary li.current:after {	    
 	    display: block;
 	    position: absolute;
 	    left: 50%;
@@ -328,104 +325,7 @@ header br {
 	    width: 100%;
 	}
 
-	/* Secondary navigation */
-	.main .secondary h3 {
-	    font-size: 20px;
-	    color: #545454;
-	    margin: 0 0 8px 0;
-	    font-family: "CamboRegular", Georgia, "Times New Roman", Times, serif;
-	    font-weight: normal;
-	}
-	.main .secondary {
-	    border-bottom: 1px solid #545454;
-	}
-		.main .secondary ul {
-		    padding: 0;
-		    margin: 0;
-		}
-		.main .secondary li {
-		    border-top: 1px solid #545454;
-		    position: relative;
-		    list-style-type: none;
-		    margin-bottom: 0;
-		}
-			.main .secondary li .arrow { 
-			    color: #b80000;
-			    padding-right: 5px;
-			    display: block;
-			    font-size: 15px;
-			    line-height: 20px;
-			    position: absolute;
-			    left: 2px;
-			    top: 7px;
-			    -moz-transition: 0.2s; /* this transition moves the arrow from left:2px to left:6px */
-			    -webkit-transition: 0.2s;
-			    transition: 0.2s;
-			}
-		.main .secondary li a:hover .arrow {
-		    left: 6px; /* this sets the final position for the arrow transition */
-		}
-		.main .secondary li a { /* side nav link styling */
-		    padding: 10px 0;
-		    display: block;
-		    text-transform: uppercase;
-		    letter-spacing: 2px;
-		    font-size: 11px;
-		    color: #333;
-		    line-height: 17px;
-		    border-bottom: none;
-		    font-family: 'Lucida Sans', 'Lucida Grande', Arial, Helvetica, sans-serif;
-		}
-		.main .secondary li .text {
-		    padding-left: 28px;
-		    display: block;
-		}
-		.main .secondary li.current a.current {
-			color: #545454;
-			background-color: #FAFAFA;
-		}
-		.main .secondary li.section,
-		.main .secondary li.current {
-		    background-color: #FAFAFA;
-		}
-			.main .secondary li.section a,
-			.main .secondary li.current a {
-			    color: #000;
-			}
-		
-
-		/* Secondary navigation 2-5 levels deep */
-		.main .secondary ul ul {
-			display: none;
-		}
-		.secondary ul li.current ul,
-		.secondary ul li.section ul { /* Only show child pages from selected parent */
-			display: block;
-		}
-		.secondary li.current ul ul {
-			display: none;
-		}
-		.main .secondary ul ul li a { padding-left: 10px; } /* Indent all sidebar navigation levels*/
-			.main .secondary ul ul li a .arrow { left: 12px; }
-			.main .secondary ul ul li a:hover .arrow { left: 16px; }
-
-		.main .secondary ul ul ul li a { padding-left: 20px; }
-			.main .secondary ul ul ul li a .arrow { left: 22px; }
-			.main .secondary ul ul ul li a:hover .arrow { left: 26px; }
-
-		.main .secondary ul ul ul ul li a { padding-left: 30px; }
-			.main .secondary ul ul ul ul li a .arrow { left: 32px; }
-			.main .secondary ul ul ul ul li a:hover .arrow { left: 36px; }
-			
-		.main .secondary ul ul ul ul ul li a { padding-left: 40px; }
-			.main .secondary ul ul ul ul ul li a .arrow { left: 32px; }
-			.main .secondary ul ul ul ul ul li a:hover .arrow { left: 36px; }
-
-		.main .secondary li a:hover,
-		.main .secondary li.section a:hover,
-		.main .secondary li.current a:hover {
-			color: #b80000;
-		}
+	
 
 
 
@@ -462,7 +362,7 @@ body h1 span.amp {
 .footer {
     color: #545454;
     background: #FAFAFA;
-    padding: 20px 0;
+    padding-top: 450px;
     font-size: 11px;
     line-height: 22px;
 }
@@ -470,7 +370,7 @@ body h1 span.amp {
 	    color: #999;
 	}
 	.footer a:hover {
-	    color: #B90000;
+	    color: #3A425E;
 	}
 	.footer .left {
 	    float: left;
@@ -512,7 +412,7 @@ body h1 span.amp {
 	}
 	.footer .arrow {
 	    padding: 0 8px 0 5px;
-	    color: #b80000;
+	    color: #3A425E;
 	    font-size: 13px;
 	}
 	.footer .primary .nav-open-button {
@@ -898,10 +798,40 @@ body h1 span.amp {
 }
 
 .drop_menu li a {
-    padding:9px 20px;
     display:block;
     color: #FAFAFA;
     text-decoration:none;
     
 }
+.drop_menu ul {
+    position:absolute;
+    left:-9999px;
+    top:-9999px;
+    list-style-type:none;
 
+}
+
+.drop_menu li:hover { 
+    position:relative; 
+    background:#3A425E; 
+    color: #FAFAFA;
+}
+
+.drop_menu li:hover ul {
+    left:0px;
+    top:30px;
+    background:#3A425E;
+    padding:0px;
+    color: #FAFAFA;
+}
+.drop_menu li:hover ul li a {
+    display:block;
+    min-width: 100px;
+    text-indent:15px;
+    background-color:#3A425E;
+    color: #FAFAFA;
+}
+.drop_menu li:hover ul li a:hover { 
+    background:#3A425E;
+    color: #FAFAFA;
+}

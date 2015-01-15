@@ -158,7 +158,7 @@ header br {
 	
 }
 .header nav li{
-    margin-bottom: -6px;
+    margin-bottom: -10px;
 }
 #test {
     background-color: #ffffff;
@@ -254,7 +254,7 @@ header br {
 		
 	}
 	.header .primary li {
-	    width: 100px;
+	    min-width: 100px;
 	    margin-top: 5px;
 	    margin-right: 5px;
 	    position: relative;
@@ -280,8 +280,6 @@ header br {
 	.header .primary li.current a {
 	    color: #545454;
 	    background-color: #FAFAFA;
-	    
-	    
 	}
 	.header .primary li.section:after,
 	.header .primary li.current:after {	    
@@ -327,104 +325,7 @@ header br {
 	    width: 100%;
 	}
 
-	/* Secondary navigation */
-	.main .secondary h3 {
-	    font-size: 20px;
-	    color: #545454;
-	    margin: 0 0 8px 0;
-	    font-family: "CamboRegular", Georgia, "Times New Roman", Times, serif;
-	    font-weight: normal;
-	}
-	.main .secondary {
-	    border-bottom: 1px solid #545454;
-	}
-		.main .secondary ul {
-		    padding: 0;
-		    margin: 0;
-		}
-		.main .secondary li {
-		    border-top: 1px solid #545454;
-		    position: relative;
-		    list-style-type: none;
-		    margin-bottom: 0;
-		}
-			.main .secondary li .arrow { 
-			    color: #b80000;
-			    padding-right: 5px;
-			    display: block;
-			    font-size: 15px;
-			    line-height: 20px;
-			    position: absolute;
-			    left: 2px;
-			    top: 7px;
-			    -moz-transition: 0.2s; /* this transition moves the arrow from left:2px to left:6px */
-			    -webkit-transition: 0.2s;
-			    transition: 0.2s;
-			}
-		.main .secondary li a:hover .arrow {
-		    left: 6px; /* this sets the final position for the arrow transition */
-		}
-		.main .secondary li a { /* side nav link styling */
-		    padding: 10px 0;
-		    display: block;
-		    text-transform: uppercase;
-		    letter-spacing: 2px;
-		    font-size: 11px;
-		    color: #333;
-		    line-height: 17px;
-		    border-bottom: none;
-		    font-family: 'Lucida Sans', 'Lucida Grande', Arial, Helvetica, sans-serif;
-		}
-		.main .secondary li .text {
-		    padding-left: 28px;
-		    display: block;
-		}
-		.main .secondary li.current a.current {
-			color: #545454;
-			background-color: #FAFAFA;
-		}
-		.main .secondary li.section,
-		.main .secondary li.current {
-		    background-color: #FAFAFA;
-		}
-			.main .secondary li.section a,
-			.main .secondary li.current a {
-			    color: #000;
-			}
-		
-
-		/* Secondary navigation 2-5 levels deep */
-		.main .secondary ul ul {
-			display: none;
-		}
-		.secondary ul li.current ul,
-		.secondary ul li.section ul { /* Only show child pages from selected parent */
-			display: block;
-		}
-		.secondary li.current ul ul {
-			display: none;
-		}
-		.main .secondary ul ul li a { padding-left: 10px; } /* Indent all sidebar navigation levels*/
-			.main .secondary ul ul li a .arrow { left: 12px; }
-			.main .secondary ul ul li a:hover .arrow { left: 16px; }
-
-		.main .secondary ul ul ul li a { padding-left: 20px; }
-			.main .secondary ul ul ul li a .arrow { left: 22px; }
-			.main .secondary ul ul ul li a:hover .arrow { left: 26px; }
-
-		.main .secondary ul ul ul ul li a { padding-left: 30px; }
-			.main .secondary ul ul ul ul li a .arrow { left: 32px; }
-			.main .secondary ul ul ul ul li a:hover .arrow { left: 36px; }
-			
-		.main .secondary ul ul ul ul ul li a { padding-left: 40px; }
-			.main .secondary ul ul ul ul ul li a .arrow { left: 32px; }
-			.main .secondary ul ul ul ul ul li a:hover .arrow { left: 36px; }
-
-		.main .secondary li a:hover,
-		.main .secondary li.section a:hover,
-		.main .secondary li.current a:hover {
-			color: #b80000;
-		}
+	
 
 
 
@@ -450,7 +351,7 @@ footer:after { /* clearfix */
     transition: color 0.2s;
 }
 .footer a.brand { color: #333; margin-left: 0; }
-.footer a.brand:hover { color: #3A425E; }
+.footer a.brand:hover { color: #B80000; }
 body h1 span.amp {
     font-family: Baskerville,"Goudy Old Style","Palatino","Book Antiqua",Georgia;
     font-style: italic;
@@ -464,8 +365,6 @@ body h1 span.amp {
     padding-top: 450px;
     font-size: 11px;
     line-height: 22px;
-    margin-left: 17%;
-    margin-right: 17%
 }
 	.footer a {
 	    color: #999;
@@ -478,9 +377,6 @@ body h1 span.amp {
 	    color: #000;
 	    display: block;
 	    margin-bottom: 10px;
-            padding-left: 300px;
-	    padding-right: 450px;
-	    min-width: 300px;
 	}
 	.footer .right {
 	    float: right;
@@ -522,6 +418,66 @@ body h1 span.amp {
 	.footer .primary .nav-open-button {
 	    display: none; /* the footer includes the primary nav include - this makes sure the nav open close button doesn't show up */
 	}
+
+/* PAGE SPECIFIC LAYOUT */
+
+	/* Homepage */
+		/* currently no Hompage specific styles - feel free to add your own */
+
+	/* Search Results */
+	.typography .searchResults h1 {
+		margin-bottom: 0;
+		padding-bottom: 0;
+		border-bottom: none;
+	}
+	.searchResults p.searchQuery {
+	    margin-bottom: 10px;
+	    font-size: 15px;
+	    font-weight: bold;
+	}
+	.searchResults ul#SearchResults {
+	    padding: 0;
+	    border-bottom: 1px solid #e5e5e5;
+	    margin:0;
+	}
+		.searchResults ul#SearchResults li {
+		    border-top: 1px solid #e5e5e5;
+		    padding: 20px 0;
+		    list-style-type: none;
+		}
+		.searchResults ul#SearchResults p {
+		    margin-bottom: 10px;
+		}
+		.searchResults #PageNumbers a {
+		    padding: 0 5px;
+		}
+		.searchResults #PageNumbers .pagination {
+		   	border-bottom: 1px solid #e5e5e5;
+		    padding: 20px 0;
+		    display:table; /* displays the pagination as a table so that elements stay inline and the middle column adjusts its size to accomodate and the right arrow stays to the right */
+		    width:100%;
+		}
+		.searchResults #PageNumbers .pagination span{
+			display:table-cell; /* each element in the pagination div displays as a table cell */
+		}
+		.searchResults #PageNumbers p {
+		    text-align: center;
+		    padding:20px 0;
+		}
+		.searchResults #PageNumbers .next,
+		.searchResults #PageNumbers .prev {
+		    font-size: 14px;
+		    padding: 0 20px;
+		    display:table-cell; /* each element in the pagination div displays as a table cell */
+		    vertical-align: middle;
+		    border-bottom:0 !important;
+		}
+		.searchResults #PageNumbers .next {
+		    margin-left: 15px;
+		}
+		.searchResults #PageNumbers .prev {
+		    margin-right: 15px;
+		}
 
 /* DEVICE & RESPONSIVE LAYOUT */
 .header .nav-open-button {
@@ -842,10 +798,39 @@ body h1 span.amp {
 }
 
 .drop_menu li a {
-    padding:9px 20px;
     display:block;
     color: #FAFAFA;
     text-decoration:none;
     
 }
+.drop_menu ul {
+    position:absolute;
+   
+    list-style-type:none;
 
+}
+
+.drop_menu li:hover { 
+    position:relative; 
+    background:#3A425E; 
+    color: #FAFAFA;
+}
+
+.drop_menu li:hover ul {
+    left:0px;
+    top:30px;
+    background:#3A425E;
+    padding:0px;
+    color: #FAFAFA;
+}
+.drop_menu li:hover ul li a {
+    display:block;
+    min-width: 100px;
+    text-indent:15px;
+    background-color:#3A425E;
+    color: #FAFAFA;
+}
+.drop_menu li:hover ul li a:hover { 
+    background:#3A425E;
+    color: #FAFAFA;
+}
