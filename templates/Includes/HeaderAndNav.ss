@@ -13,16 +13,17 @@
 					$SearchForm
 				</div>
 			<% end_if %>
+			<br>
 			<nav class="primary">
-			<div class="nav">
+			<div class="drop">
 				<span class="nav-open-button">²</span>
-					<ul>
+					<ul class="drop_menu">
 						<% loop $Menu(1) %>
 							<li class="$LinkingMode"><a href="$Link" title="$Title.XML">$MenuTitle.XML</a></li>
 						<% end_loop %>
 					</ul>
 		    </div>
-		    <hr>
+		    
 			</nav>
 			
 			
