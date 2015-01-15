@@ -63,6 +63,7 @@ body {
     font-family: 'Bitter', serif; /* This references one of the custom @font-face fonts - the other fonts that are referenced are fallbacks for browsers that don't support @fontface */
     font-weight: normal;
     margin-bottom: 10px;
+    color: #3A425E;
 }
 .typography h1 {
   font-size: 36px;
