@@ -51,7 +51,7 @@ body {
 .typography h1 { 
     font-family: 'Bitter', serif; /* This references one of the custom @font-face fonts - the other fonts that are referenced are fallbacks for browsers that don't support @fontface */
     font-weight: normal;
-    margin-bottom: 10px;
+    
     color: #FAFAFA;
 }
 
@@ -65,18 +65,19 @@ body {
     margin-bottom: 10px;
     color: #3A425E;
 }
-.typography h1 {
+.typography h1, h1 {
   font-size: 36px;
   line-height: 45px;
   margin: 0 0 25px 0;
   border-bottom: 1px solid #e5e5e5;
   padding-bottom: 5px;
 }
-.typography h2 { font-size: 28px; line-height: 35px; margin-bottom: 15px; }
-.typography h3 { font-size: 22px; line-height: 30px; margin-bottom: 10px; }
-.typography h4 { font-size: 18px; line-height: 25px; margin-bottom: 5px; }
-.typography h5 { font-size: 16px; line-height: 20px; margin-bottom: 5px; }
-.typography h6 { font-size: 14px; line-height: 20px; font-weight: bold; margin-bottom: 5px; }
+
+.typography h2, h2{ font-size: 28px; line-height: 35px; margin-bottom: 15px; }
+.typography h3, h3{ font-size: 22px; line-height: 30px; margin-bottom: 10px; }
+.typography h4, h4{ font-size: 18px; line-height: 25px; margin-bottom: 5px; }
+.typography h5, h5{ font-size: 16px; line-height: 20px; margin-bottom: 5px; }
+.typography h6, h6{ font-size: 14px; line-height: 20px; font-weight: bold; margin-bottom: 5px; }
 
 
 /* PARAGRAGHS */
