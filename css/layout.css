@@ -40,7 +40,7 @@
 * https://github.com/stubbornella/oocss/wiki/grids
 */
 .content-container {
-    margin-top: 150px;
+    margin-top: 200px;
 }
 .line, /* line - Groups units on one horizontal line. Note: for mobile layout units may be stacked to avoid horizontal scrolling. */
 .lastUnit {
@@ -106,7 +106,7 @@ The following fractions are supported: 1, 1/2, 1/3, 2/3, 1/4, 3/4, 1/5, 2/5, 3/5
 
 /* MAIN LAYOUT */
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    
     margin: 0;
     background: #FAFAFA;
     min-width: 240px; 
@@ -169,21 +169,23 @@ header br {
 	/* Brand */
 	header .brand, header .brand:hover {
 	    
-	    color: #545454;
+	    color: #FAFAFA;
 	    display: inline-block;
 	}
 		.brand h1 {
 		    
 		    padding: 0;
 		    font-size: 48px;
-		    font-family: 'Bitter', serif;
+		    font-family: "HelveticaNeueLTPro-Bd", "Helvetica Neue LT Pro Bold", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue LT Pro", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		    color: #FAFAFA;
 		    font-weight: 600;
 		    font-stretch: normal; /* default value. No font stretching */
 		    line-height: 1em;
 		}
 		.brand p {
+
 		    color: #fafafa;
+
 		    margin-bottom: 22px;
 		}
 
@@ -218,7 +220,7 @@ header br {
 		    border: none;
 		    padding: 5px;
 		    background: none;
-		    font-family: 'Source Sans Pro', sans-serif;
+		    font-family: 'WebSymbolsRegular';
 		    color: #545454;
 			border-radius: 0;
 			margin: 0;
@@ -261,7 +263,7 @@ header br {
 	.header .primary li a {
 	    color: #FAFAFA;
 	    font-size: 15px;
-	    font-family: 'Source Sans Pro', sans-serif;
+	    font-family: Helvetica, Arial, sans-serif;
 	    padding: 6px 8px 6px 8px;
 	    border: 1px;
 	    border-color: #545454;
@@ -289,7 +291,7 @@ header br {
 	    left: 50%;
 	    margin-left: -7px;
 	    bottom: -7px;
-	    font-family: 'Source Sans Pro', sans-serif;
+	    font-family: 'WebSymbolsRegular';
 	    font-size: 30px;
 	    color: #fff;
 	    text-align: center;
@@ -331,7 +333,7 @@ header br {
 	    font-size: 20px;
 	    color: #545454;
 	    margin: 0 0 8px 0;
-	    font-family: 'Source Sans Pro', sans-serif;
+	    font-family: "CamboRegular", Georgia, "Times New Roman", Times, serif;
 	    font-weight: normal;
 	}
 	.main .secondary {
@@ -372,7 +374,7 @@ header br {
 		    color: #333;
 		    line-height: 17px;
 		    border-bottom: none;
-		    font-family: 'Source Sans Pro', sans-serif;
+		    font-family: 'Lucida Sans', 'Lucida Grande', Arial, Helvetica, sans-serif;
 		}
 		.main .secondary li .text {
 		    padding-left: 28px;
@@ -451,7 +453,7 @@ footer:after { /* clearfix */
 .footer a.brand { color: #333; margin-left: 0; }
 .footer a.brand:hover { color: #B80000; }
 body h1 span.amp {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: Baskerville,"Goudy Old Style","Palatino","Book Antiqua",Georgia;
     font-style: italic;
 }
 
@@ -642,7 +644,7 @@ body h1 span.amp {
 		    top: 35px;
 		    display: block;
 		    cursor: pointer;
-		    font-family: 'Source Sans Pro', sans-serif;
+		    font-family: 'WebSymbolsRegular';
 		    font-size: 20px;
 		    color: #ededed;
 		}
@@ -671,7 +673,7 @@ body h1 span.amp {
 			    position: absolute;
 			    right: 20px;
 			    top: 0px;
-			    font-family: 'Source Sans Pro', sans-serif;
+			    font-family: 'WebSymbolsRegular';
 			    font-size: 14px;
 			    color: #999;
 			    text-align: center;
@@ -721,7 +723,7 @@ body h1 span.amp {
 	    position: absolute;
 	    right: 60px;
 	    top: 34px;
-	    font-family: 'Source Sans Pro', sans-serif;
+	    font-family: 'WebSymbolsRegular';
 	    font-size: 20px;
 	    color: #ededed;
 	    text-align: center;
