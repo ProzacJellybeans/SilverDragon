@@ -9,7 +9,6 @@
 	<% base_tag %>
 	<title><% if $MetaTitle %>$MetaTitle<% else %>$Title<% end_if %> &raquo; $SiteConfig.Title</title>
 	$MetaTags(false)
-	<link href='http://fonts.googleapis.com/css?family=Bitter|Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
 	<% require themedCSS('reset') %>
 	<% require themedCSS('typography') %>
 	<% require themedCSS('form') %>
@@ -19,11 +18,8 @@
     <div id="container">
        <div id="content-holder">  
             <% include HeaderandNav %>
-        <div id="test">
-            <section>
-    
-               $Layout 
-            </section>
+        <div id="content">
+            $Layout
         </div>
            <% include Footer %>
        </div> 
