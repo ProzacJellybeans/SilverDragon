@@ -36,9 +36,7 @@
 /* OOCSS Grid
 * https://github.com/stubbornella/oocss/wiki/grids
 */
-.content-container {
-    margin-top: 200px;
-}
+
 .line, /* line - Groups units on one horizontal line. Note: for mobile layout units may be stacked to avoid horizontal scrolling. */
 .lastUnit {
 	overflow:hidden;
