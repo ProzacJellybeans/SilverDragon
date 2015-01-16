@@ -177,6 +177,7 @@ header br {
 		    font-size: 48px;
 		    color: #FAFAFA;
 		    font-weight: 600;
+			font-family: 'Bitter', serif;
 		    font-stretch: normal; /* default value. No font stretching */
 		    line-height: 1em;
 		}
@@ -218,7 +219,7 @@ header br {
 		    border: none;
 		    padding: 5px;
 		    background: none;
-		    font-family: 'WebSymbolsRegular';
+		    font-family: 'Source Sans Pro', sans-serif;
 		    color: #545454;
 			border-radius: 0;
 			margin: 0;
@@ -261,7 +262,7 @@ header br {
 	.header .primary li a {
 	    color: #FAFAFA;
 	    font-size: 15px;
-	    font-family: Helvetica, Arial, sans-serif;
+	    font-family: 'Source Sans Pro', sans-serif;
 	    padding: 6px 8px 6px 8px;
 	    border: 1px;
 	    border-color: #545454;
@@ -286,7 +287,7 @@ header br {
 	    left: 50%;
 	    margin-left: -7px;
 	    bottom: -7px;
-	    font-family: 'WebSymbolsRegular';
+	    font-family: 'Source Sans Pro', sans-serif;
 	    font-size: 30px;
 	    color: #fff;
 	    text-align: center;
@@ -351,7 +352,7 @@ footer:after { /* clearfix */
 .footer a.brand { color: #333; margin-left: 0; }
 .footer a.brand:hover { color: #3a425E; }
 body h1 span.amp {
-    font-family: Baskerville,"Goudy Old Style","Palatino","Book Antiqua",Georgia;
+    font-family: 'Source Sans Pro', sans-serif;
     font-style: italic;
 }
 
@@ -545,7 +546,7 @@ body h1 span.amp {
 		    top: 35px;
 		    display: block;
 		    cursor: pointer;
-		    font-family: 'WebSymbolsRegular';
+		    font-family: 'Source Sans Pro', sans-serif;
 		    font-size: 20px;
 		    color: #ededed;
 		}
@@ -574,7 +575,7 @@ body h1 span.amp {
 			    position: absolute;
 			    right: 20px;
 			    top: 0px;
-			    font-family: 'WebSymbolsRegular';
+			    font-family: 'Source Sans Pro', sans-serif;
 			    font-size: 14px;
 			    color: #999;
 			    text-align: center;
@@ -624,7 +625,7 @@ body h1 span.amp {
 	    position: absolute;
 	    right: 60px;
 	    top: 34px;
-	    font-family: 'WebSymbolsRegular';
+	    font-family: 'Source Sans Pro', sans-serif;
 	    font-size: 20px;
 	    color: #ededed;
 	    text-align: center;
